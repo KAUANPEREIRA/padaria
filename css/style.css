@@ -13,6 +13,7 @@ header{
     width: 100%;
     height: 123px;
     background-color:#8A1315;
+   
 }
 
 .menuDesktop ul{
@@ -29,8 +30,11 @@ header{
     margin-left: 13px;
     cursor: pointer;
 }
+.liLogo{
+
+}
 .liTexto{
-    margin-top: 87px;
+    margin-top: 80px;
 }
 
 .menuMobile{
@@ -61,31 +65,91 @@ header{
 #dispositivo{
     display: none;
 }
+/* fim itens header */
+
+.sectionBanner{
+    background-image: url('../assets/bannerorigin.png');
+    background-repeat: no-repeat;
+    height: 648px;
+    width: 100%;
+}
+
+
+
+
+
+/*fim banner img */
+
+
+
 @media (min-width:450px) and (max-width:800px) {
+
+    .menuDesktop{
+        display: none;
+    }
+    .menuMobile{
+        display:flex;
+       text-align: center;
+       flex-direction: column;
+       
+    }
+    .menuMobile li {
+        margin-top: 10px;
+      
+        transition:1s;
+    }
+    .icone{
+       margin-left:315px;
+        cursor: pointer;
+        margin-top: -67px;
+   
+    }
+   .logoMobile{
+    margin-left: -240px;
+    margin-top: 10px;
+   }
+   
 
    
 }
 
 @media (max-width:450px) {
- .menuDesktop{
-     display: none;
- }
- .menuMobile{
-     display:flex;
-    text-align: center;
-    flex-direction: column;
-    justify-content: space-between;
- }
- .menuMobile li {
-     margin-top: 10px;
+    .menuDesktop{
+        display: none;
+    }
+    .menuMobile{
+        display:flex;
+       text-align: center;
+       flex-direction: column;
+       
+    }
+    .menuMobile li {
+        margin-top: 10px;
+      
+        transition:1s;
+    }
+    .icone{
+       margin-left:315px;
+        cursor: pointer;
+        margin-top: -67px;
    
-     transition:1s;
- }
- .icone{
-     margin-left: 360px;
-     cursor: pointer;
+    }
+   .logoMobile{
+    margin-left: -240px;
+    margin-top: 10px;
+   }
+   
+   
+   
+   }
 
- }
-
+@media (max-width:280px) {
+    .icone{
+        margin-left: 230px;
+    }
+    .logoMobile{
+        margin-left: -170px;
+    }
+    
 
 }
