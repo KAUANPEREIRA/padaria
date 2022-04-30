@@ -1,13 +1,9 @@
-let menuBar = document.querySelector('.icone')
-
-menuBar.addEventListener('click',(e)=>{
-    e.preventDefault()
-   let dispositivo = document.querySelector('.dispositivo')
-   if(dispositivo.style.display=="none"){
-       dispositivo.style.display="flex"
-   }
-    
-    
-   
-})
+let dispositivo = document.getElementById('dispositivo')
+const abrir = ()=>{
+    if(dispositivo.style.display!='block'){
+    dispositivo.style.display='block'
+    }else{
+        dispositivo.style.display='none'
+    }
+}
 
