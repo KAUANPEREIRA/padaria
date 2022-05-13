@@ -113,10 +113,60 @@ header{
 /*banner black*/
 .section-black{
     width: 100%;
-    height: 600px;
+    height:100vh;
     background-color: black;
 }
 
+.conteudos{
+    display: flex;
+    max-width: 1240px;
+    margin: auto;
+   
+}
+.ladoEsquerdo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.ladoDireito{
+    width: 50%;
+ 
+}
+.tituloDoces{
+    font-size: 36px;
+    font-weight: 400;
+    color:#ffffff;
+}
+
+.docesP{
+    width: 400px;
+    color: #Ffffff;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.btnDoces{
+    width: 154px;
+    height: 40px;
+    background-color: #c4c4c4;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.retangulo{
+    width: 404px;
+    height: 316px;
+    background-color: #eeeeee;
+    border-radius: 20px;
+    margin-top: -280px;
+    margin-left: 50px;
+}
 
 
 @media (min-width:450px) and (max-width:800px) {
@@ -144,6 +194,10 @@ header{
    .logoMobile{
     margin-left: -240px;
     margin-top: 10px;
+   }
+
+   .conteudos{
+       flex-direction: column;
    }
    
 
@@ -176,6 +230,30 @@ header{
     margin-top: 10px;
    }
    
+   .conteudos{
+       flex-direction: column;
+   }
+
+   .fotoDoce{
+       width: 289px;
+       margin-top: 50px;
+   }
+   .retangulo{
+       width:289px;
+       height: 230px;
+       margin-top: -200px;
+      
+   }
+   .docesP{
+       width: 270px;
+   }
+   .ladoEsquerdo{
+       margin-right: 45px;
+       width: 100%;
+   }
+   .ladoDireito{
+       margin-left: 20px;
+   }
    
    
    }
