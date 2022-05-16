@@ -238,6 +238,7 @@ header{
    .fotoDoce{
        width: 289px;
        margin-top: 50px;
+       
    }
    .retangulo{
        width:289px;
@@ -252,7 +253,7 @@ header{
    .ladoEsquerdo{
        margin-right: 45px;
        width: 100%;
-       
+
    }
    .ladoDireito{
        margin-left: 20px;
