@@ -232,6 +232,7 @@ header{
    
    .conteudos{
        flex-direction: column;
+       
    }
 
    .fotoDoce{
@@ -253,7 +254,7 @@ header{
    }
    .ladoDireito{
        margin-left: 20px;
-       
+
    }
    
    
