@@ -113,7 +113,7 @@ header{
 /*banner black*/
 .section-black{
     width: 100%;
-    height:100vh;
+    height:160vh;
     background-color: black;
 }
 
@@ -169,6 +169,30 @@ header{
     margin-left: 50px;
 }
 
+.retanguloRed{
+    width: 673px;
+    height: 245px;
+    background-color: 
+    #8A1315;
+    border: 2px solid #FFE104;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: -170px;
+}
+.escolha{
+    text-align: center;
+    color: #ffffff;
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.escolhaRetangulo{
+    color: #Ffffff;
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+}
+
 
 @media (min-width:450px) and (max-width:800px) {
 
@@ -200,6 +224,8 @@ header{
    .conteudos{
        flex-direction: column;
    }
+
+
    
 
    
@@ -226,6 +252,7 @@ header{
         margin-top: -67px;
    
     }
+
    .logoMobile{
     margin-left: -240px;
     margin-top: 10px;
@@ -261,6 +288,14 @@ header{
        margin-left: 20px;
 
    }
+
+ .retanguloRed{
+    width: 350px;
+}
+
+.escolhaRetangulo{
+    width: 300px;
+}
    
    
    }
@@ -273,5 +308,25 @@ header{
         margin-left: -170px;
     }
     
+    .retanguloRed{
+        width: 270px;
+    }
+
+    .escolhaRetangulo{
+        width: 240px;
+    }
+
+    .pBanner{
+        width: 270px;
+    }
+
+    .fotoDoce{
+        width: 240px;
+        margin-left: -7px;
+
+    }
+    .retangulo{
+        display: none;
+    }
 
 }
