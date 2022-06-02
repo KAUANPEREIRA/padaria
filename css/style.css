@@ -391,6 +391,91 @@ footer{
     color: #fff;
 }
 
+/*menuMobile*/
+
+nav{
+    height: 100%;
+    width: 0px;
+    background-color: #8A1315;
+    position: fixed;
+    top: 10;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+    transition: width 0.3s;
+
+}
+
+nav a{
+    color:#ffffff;
+    font-size: 15px;
+    display: block;
+    padding: 12px 10px 12px 32px;
+
+}
+
+nav a:hover{
+    color: #ffffff;
+    background-color: 	#FFFFFF;
+}
+
+a{
+    text-decoration: none;
+}
+/*media para tablets*/
+@media (min-width:820px) and (max-width:1400px) {
+    .retangulo{
+        display: none;
+    }
+
+    body{
+        overflow-x: hidden !important;
+    }
+
+    .section-black{
+        height: 1000px;
+    }
+    .meuContent{
+        width: 700px;
+
+    }
+
+    .paragrafoHistoria{
+        width: 300px;
+        margin-left: 120px;
+      
+    }
+
+    .direitoImg{
+        width: 250px;
+        margin-left: -20px;
+    }
+    #fotoRed{
+        width: 450px;
+    }
+    .historia{
+        margin-left: 120px;
+    }
+    .quemSomos{
+        margin-left: 0px;
+
+    }
+
+   #navegue{
+       display: none;
+   }
+   .ligth-Cards{
+       height: 2000px;
+   }
+   .section-Red{
+       height: 650px;
+   }
+}
+
+/*media para tablets proporção um pouco diferente*/
+
+
+
 @media (min-width:450px) and (max-width:800px) {
 
     .menuDesktop{
@@ -422,9 +507,7 @@ footer{
        flex-direction: column;
    }
 
-   .section-black{
-       height: 200vh;
-   }
+  
 
    .meusCardsLight{
        flex-direction: column;
@@ -432,6 +515,7 @@ footer{
 
    .section-Red{
     margin-top: 3200px;
+
 
 }
 .meuContent{
@@ -563,6 +647,10 @@ footer{
     width: 300px;
 }
 
+.ligth-Cards{
+    height: 1190px;
+}
+
    
    }
 
@@ -616,4 +704,31 @@ footer{
         margin-left: 5px;
     }
 
+    .ligth-Cards{
+        height: 1190px;
+    }
+
+    footer{
+        display: none;
+    }
+    .informações{
+        display: none;
+    }
+
+    .section-Red{
+        display: none;
+    }
+    
+    .pBanner{
+        width: 250px;
+    }
+    .h1banner{
+        margin-left: 1px;
+        width: 200px;
+    }
+    .btnBanner{
+        margin-top: 10px;
+        margin-left: 1px;
+
+    }
 }

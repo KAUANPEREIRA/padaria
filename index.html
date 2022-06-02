@@ -26,7 +26,7 @@
                 <img src="./assets/logo.png" height="100px">
             </div>
             
-           <div class="icone" onclick="abrir()">
+           <div class="icone" onclick="abrirMenu()">
                <div class="mm"></div>
                <div class="mm"></div>
                <div class="mm"></div>
@@ -45,6 +45,14 @@
         
 
     </header>
+    <nav id="menu">
+        <a href="#" id="fechar" onclick="fecharMenu()">&times; Fechar</a>
+        <a href="index.html" id="home"onclick="fecharMenu()">Homepage</a>
+        <a href="#deliciaReis" id="delicia"onclick="fecharMenu()">Delícia Reis</a>
+        <a href="#contatoReis" id="contato"onclick="fecharMenu()">Contato</a>
+       
+
+    </nav>
     <section class="sectionBanner">
         <br>
         <div class="containerBanner">
@@ -75,6 +83,7 @@
                 <div class="btnDoces">
                     <b>Saiba mais</b>
                 </div>
+                <br><br>
             </div>
             <div class="ladoDireito">
                 <img class="fotoDoce"src="./assets/doces.png"/>
@@ -110,7 +119,7 @@
         </div>
 
     </section>
-    <section class="ligth-Cards">
+    <section class="ligth-Cards" id="deliciaReis">
         <div class="container">
             <h1 class="cardsT">Delícias Reis</h1>
             <h2 class="cardsT">Conheça as delícias que oferecemos aos clientes!</h2>
@@ -212,7 +221,7 @@
             <div class="tracinho"></div>
             <div class="meuContent">
                 <div class="direitoImg">
-                    <img src="./assets/cesta.png"/>
+                    <img src="./assets/cesta.png" id="fotoRed"/>
                 </div>
                 <div class="textoEsquerda">
                     <h1 class="historia">Nossa História</h1>
@@ -234,7 +243,7 @@
     </section>
     <section class="informações">
         <div class="container">
-            <div class="minhasInformacoes">
+            <div class="minhasInformacoes" id="contatoReis">
                 <br>
                 <div class="quemSomos">
                     <h2 class="quem">Quem somos</h2>
@@ -270,7 +279,7 @@
                     </ul>
                 </div>
 
-                <div class="quemSomos">
+                <div class="quemSomos" id="navegue">
                     <h2 class="quem">Navegue</h2>
                     <div class="tracinhoRed"></div>
                     <ul class="listaFooter">
@@ -303,7 +312,7 @@
                 </p>
                 
             </div>
-            <div class="copyr">&copy; Padaria reis 2022</div>
+            <div class="copyr">&copy;2022 Copyright - Reis Padaria</div>
         </div>
         
 
