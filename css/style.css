@@ -8,6 +8,7 @@
 
 body{
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 header{
     width: 100%;
@@ -173,6 +174,7 @@ header{
     border-radius: 20px;
     margin-top: -280px;
     margin-left: 50px;
+    
 }
 
 .retanguloRed{
@@ -398,7 +400,7 @@ nav{
     width: 0px;
     background-color: #8A1315;
     position: fixed;
-    top: 10;
+    top: 0;
     left: 0;
     z-index: 1;
     overflow: hidden;
@@ -423,56 +425,103 @@ a{
     text-decoration: none;
 }
 /*media para tablets*/
-@media (min-width:820px) and (max-width:1400px) {
+
+@media (min-width:820px) and (max-width:1180px) {
     .retangulo{
         display: none;
     }
-
-    body{
-        overflow-x: hidden !important;
-    }
-
     .section-black{
-        height: 1000px;
+        height: 940px;
     }
-    .meuContent{
-        width: 700px;
+    .ligth-Cards{
+        height: 2000px;
+    }
 
+    .section-Red{
+        height: 900px;
+    }
+    
+    .meusCardsLight{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fotoRed{
+        width: 300px;
     }
 
     .paragrafoHistoria{
-        width: 300px;
-        margin-left: 120px;
-      
+        margin-left: -50px;
+        width: 200px;
+        
     }
-
-    .direitoImg{
-        width: 250px;
-        margin-left: -20px;
-    }
-    #fotoRed{
-        width: 450px;
-    }
-    .historia{
-        margin-left: 120px;
+    .minhasInformacoes{
+        margin-left: 1px;
     }
     .quemSomos{
-        margin-left: 0px;
-
+        margin-left: 5px;
     }
 
-   #navegue{
-       display: none;
-   }
-   .ligth-Cards{
-       height: 2000px;
-   }
-   .section-Red{
-       height: 650px;
-   }
+    #navegue{
+        margin-left: 50px;
+    }
+
+    .listaFooter{
+        width: 200px;
+    }
+
 }
 
 /*media para tablets proporção um pouco diferente*/
+@media (min-width:768px) and (max-width:1024px) {
+    .meusCardsLight{
+        flex-direction: row !important;
+    }
+    .minhasInformacoes{
+        flex-direction: row !important;
+    }
+
+}
+
+/*surface duo*/
+@media (min-width:540px) and (max-width:720px){
+    .retanguloRed{
+        width: 420px;
+        padding: 20px;
+    }
+    .retangulo{
+        display: none;
+    }
+    .conteudos{
+        margin-left: -80px;
+    }
+    .docesP{
+        margin-left: 100px;
+    }
+    .section-black{
+        height: 200vh;
+    }
+    .section-Red{
+        margin-top: 3110px !important;
+    }
+    #navegue{
+        margin-left: -1px !important;
+    }
+    .fotoRed{
+        width: 400px;
+    }
+    .direitoImg{
+        width: 400px;
+    }
+    .fotoRed{
+        width: 400px;
+    }
+  .informações{
+      height: 770px;
+  }
+  
+}
+
 
 
 
@@ -505,16 +554,20 @@ a{
 
    .conteudos{
        flex-direction: column;
+       align-items: center;
+       justify-content: center;
    }
 
   
 
    .meusCardsLight{
        flex-direction: column;
+       align-items: center;
    }
 
    .section-Red{
-    margin-top: 3200px;
+    margin-top: 500px;
+    height: auto;
 
 
 }
@@ -529,10 +582,40 @@ a{
 .quemSomos{
     margin-left: -5px;
 }
+
+.listaFooter{
+    width: 150px;
+}
+#navegue{
+    margin-left: 50px;
+}
+
       
 }
 
 @media (max-width:450px) {
+   
+    .miniatura{
+        width:270px;
+     }
+     .card{
+         width: 270px;
+         margin: auto;
+         margin-top: 10px;
+         margin-bottom: 10px;
+         align-items: center;
+         justify-content: center;
+         
+
+     }
+     .ligth-Cards{
+         height: 500px !important;
+
+     }
+    
+    .listaFooter{
+        width: 200px;
+    }
     .menuDesktop{
         display: none;
     }
@@ -633,7 +716,11 @@ a{
 }
 
 .quemSomos{
-    margin-left: -5px;
+    margin-left: -20px;
+}
+
+#navegue{
+    margin-left: -20px;
 }
 
 .informações{
@@ -693,6 +780,7 @@ a{
 
     .section-Red{
         margin-top: 3200px;
+        height: 970px;
 
     }
 
@@ -705,20 +793,8 @@ a{
     }
 
     .ligth-Cards{
-        height: 1190px;
-    }
-
-    footer{
-        display: none;
-    }
-    .informações{
-        display: none;
-    }
-
-    .section-Red{
-        display: none;
-    }
-    
+        height: 450px;
+    } 
     .pBanner{
         width: 250px;
     }
@@ -730,5 +806,35 @@ a{
         margin-top: 10px;
         margin-left: 1px;
 
+    }
+    .miniatura{
+       width:270px;
+    }
+    .card{
+        width: 270px;
+        margin-left: 2px;
+    }
+    .paragrafoHistoria {
+        width: 270px;
+        height: 1000px;
+    }
+
+    .direitoImg img{
+        width: 270px;
+    }
+    .info{
+        width: 230px;
+    }
+    .lis{
+        width:240px;
+    }
+    .quemSomos{
+        margin-left: -30px;
+    }
+    .listaFooter{
+        width: 250px;
+    }
+    .content{
+        width: 270px;
     }
 }
