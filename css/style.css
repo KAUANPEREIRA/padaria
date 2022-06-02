@@ -233,6 +233,164 @@ header{
     flex-wrap: wrap;
 }
 
+/*fim da section de cards inicio da seção vermelha*/
+
+.section-Red{
+    width: 100%;
+    height: 600px;
+    background-color: #8A1315;
+    margin-top: 350px;
+}
+
+.tred{
+    font-weight: 400;
+    color: #ffffff;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.meuContent{
+    display: flex;
+
+}
+
+.historia{
+    font-weight: 400;
+    color: #ffffff;
+}
+.paragrafoHistoria{
+    margin-top: 20px;
+    color: #ffffff;
+    line-height: 1.5;
+    width: 350px;
+}
+
+.textoEsquerda{
+    margin-left: 70px;
+
+}
+
+.tracinho{
+    width: 100px;
+    height: 2px;
+    color: #fff;
+    background-color: #ffff;
+    margin: auto;
+    margin-top: -13px;
+    margin-bottom: 20px;
+
+}
+
+/*fim da section red iniciou da penultima section */
+
+.informações{
+    width: 100%;
+    height:300px;
+    background-color: #ffffff;
+    
+}
+
+.tracinhoRed{
+    width: 70px;
+    height: 2px;
+    background-color: #8A1315;
+    text-align: center;
+    margin-left: 2px;
+}
+
+.quem{
+    font-weight: 400;
+    margin-bottom: 5px;
+    margin-top: 50px;
+}
+
+.info{
+    width: 329px;
+    height: 100px;
+    margin-top: 20px;
+
+
+}
+
+.listaFooter{
+    margin-top: 20px;
+    width: 329px;
+}
+
+.lis{
+    margin-top: 10px;
+    
+}
+
+.minhasInformacoes{
+    display: flex;
+    margin-left: 50px;
+    
+}
+
+.quemSomos{
+    margin-left: 30px;
+}
+
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: #8A1315;
+    
+
+}
+
+.hedaerFooter{
+    display: flex;
+    justify-content: space-between;
+}
+
+.la{
+    margin-left: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+   
+}
+
+.f{
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.linhaDividir{
+    width: 100%;
+    background-color: #ffffff;
+    height: 2px;
+    margin-top: 10px;
+
+}
+
+.content{
+    width: 500px;
+    color: #ffffff;
+    font-weight: 400;
+    margin: auto;
+}
+
+
+.cContent{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.couteudoFooter{
+    margin-bottom: 20px;
+
+}
+
+.copyr{
+    text-align: center;
+    color: #fff;
+}
+
 @media (min-width:450px) and (max-width:800px) {
 
     .menuDesktop{
@@ -272,9 +430,22 @@ header{
        flex-direction: column;
    }
 
-   
+   .section-Red{
+    margin-top: 3200px;
 
-   
+}
+.meuContent{
+    flex-direction: column !important;
+}
+
+.minhasInformacoes{
+    flex-direction: column;
+}
+
+.quemSomos{
+    margin-left: -5px;
+}
+      
 }
 
 @media (max-width:450px) {
@@ -344,11 +515,54 @@ header{
 }
 
 .section-black{
-    height: 200vh;
+    height: 1380px;
 }
    .meusCardsLight{
        flex-direction: column;
    }
+
+   .section-Red{
+    margin-top: 3200px;
+
+}
+
+.meuContent{
+    flex-direction: column !important;
+}
+
+.textoEsquerda{
+    margin-left: 5px;
+
+}
+.direitoImg img{
+   
+    width: 300px;
+ 
+}
+
+.section-Red{
+    height: 800px;
+}
+
+.minhasInformacoes{
+    flex-direction: column;
+}
+
+.quemSomos{
+    margin-left: -5px;
+}
+
+.informações{
+ 
+    height:730px;
+   
+    
+}
+
+.content{
+    width: 300px;
+}
+
    
    }
 
@@ -387,6 +601,19 @@ header{
 
     .meusCardsLight{
         flex-direction: column;
+    }
+
+    .section-Red{
+        margin-top: 3200px;
+
+    }
+
+    .minhasInformacoes{
+        flex-direction: column;
+    }
+
+    .quemSomos{
+        margin-left: 5px;
     }
 
 }
